@@ -28,8 +28,8 @@ export default function Home({ products }) {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
-        <meta name="Description" content="Put your description here." />
-        <title>Medsy</title>
+        <meta name="Vitamin & Nature" content="Put your description here." />
+        <title>Vitamin &amp; Nature</title>
       </Head>
 
       <HeroBlock />
