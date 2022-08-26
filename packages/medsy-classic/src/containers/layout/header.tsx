@@ -1,18 +1,18 @@
-import { useContext, useRef, useEffect } from "react";
-import Link from "next/link";
-import PhoneIcon from "assets/icons/phone";
-import CartIcon from "assets/icons/cart-icon";
-import Logo from "assets/icons/logo";
-import Search from "components/search-outline";
-import { DrawerContext } from "contexts/drawer/drawer.provider";
-import { StickyContext } from "contexts/sticky/sticky.provider";
-import { useCart } from "contexts/cart/cart.provider";
-import { useMedia } from "helpers/use-media";
-import { useRouter } from "next/router";
+import { useContext, useRef, useEffect } from 'react';
+import Link from 'next/link';
+import PhoneIcon from 'assets/icons/phone';
+import CartIcon from 'assets/icons/cart-icon';
+import Logo from 'assets/icons/logo';
+import Search from 'components/search-outline';
+import { DrawerContext } from 'contexts/drawer/drawer.provider';
+import { StickyContext } from 'contexts/sticky/sticky.provider';
+import { useCart } from 'contexts/cart/cart.provider';
+import { useMedia } from 'helpers/use-media';
+import { useRouter } from 'next/router';
 
 export default function Header() {
   const router = useRouter();
-  const isLargeScreen = useMedia("(min-width: 1024px)");
+  const isLargeScreen = useMedia('(min-width: 1024px)');
   const { dispatch } = useContext(DrawerContext);
   const {
     state: { isSticky },
@@ -27,7 +27,7 @@ export default function Header() {
 
   const showMenu = () => {
     dispatch({
-      type: "OPEN_MENU",
+      type: 'OPEN_MENU',
       payload: {
         menu: true,
       },
@@ -36,20 +36,20 @@ export default function Header() {
 
   const showCart = () => {
     dispatch({
-      type: "SLIDE_CART",
+      type: 'SLIDE_CART',
       payload: {
         open: true,
       },
     });
     dispatch({
-      type: "TOGGLE_CART_VIEW",
+      type: 'TOGGLE_CART_VIEW',
       payload: {
         showCart: true,
       },
     });
   };
 
-  const isHome = router.pathname === "/";
+  const isHome = router.pathname === '/';
 
   return (
     <header className="flex items-center shadow-mobile text-gray-700 body-font fixed bg-white w-full h-90px z-20 lg:shadow-header pr-20px md:pr-30px lg:pr-40px">
@@ -74,7 +74,7 @@ export default function Header() {
 
       <div
         className={`w-full ml-10px mr-20px lg:mr-10 lg:ml-auto transition duration-350 ease-in-out flex justify-center ${
-          isSticky ? "lg:opacity-100 lg:visible" : "lg:opacity-0 lg:invisible"
+          isSticky ? 'lg:opacity-100 lg:visible' : 'lg:opacity-0 lg:invisible'
         }`}
       >
         {isHome && <Search ref={searchRef} className="search-outline" />}
@@ -83,7 +83,7 @@ export default function Header() {
       <div className="hidden items-center text-gray-900 mr-10 flex-shrink-0 lg:flex">
         <PhoneIcon />
         <span className="font-semibold text-base text-14px ml-3">
-          +1 855-766-5885
+          +254 791-766-588
         </span>
       </div>
 
@@ -95,7 +95,7 @@ export default function Header() {
         <CartIcon width="20px" height="22px" />
         <span
           className="w-18px h-18px flex items-center justify-center bg-gray-900 text-white absolute rounded-full"
-          style={{ fontSize: "10px", top: "-10px", right: "-10px" }}
+          style={{ fontSize: '10px', top: '-10px', right: '-10px' }}
         >
           {itemsCount}
         </span>

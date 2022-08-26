@@ -86,6 +86,8 @@ const responsive = {
 export default function InstagramReview() {
   const { posts, isLoading } = useInstagram();
 
+  if (posts === undefined) return null;
+
   return (
     <div className="my-35px xxl:my-60px px-5 lg:px-40px">
       <div className="relative">

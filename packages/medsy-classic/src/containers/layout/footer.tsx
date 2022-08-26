@@ -58,9 +58,9 @@ const Footer = () => (
       Copyright &copy; {new Date().getFullYear()}{' '}
       <a
         className="font-semibold transition-colors duration-200 ease-in-out hover:text-red-700"
-        href="https://redq.io/"
+        href="https://stockpot.co.ke/"
       >
-        RedQ, Inc.
+        by Stockpot.
       </a>{' '}
       All rights reserved
     </p>

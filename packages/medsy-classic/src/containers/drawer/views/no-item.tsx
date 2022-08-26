@@ -29,8 +29,8 @@ export default function NoItem() {
 
       <div className="flex-auto">
         <p className="text-center text-gray-900 px-10 leading-loose">
-          You haven't added anything in your cart yet. Start adding the products
-          you like.
+          You have not added anything in your cart yet. Start adding the
+          products you like.
         </p>
 
         <div className="flex items-center justify-center mt-40px md:mt-95px">

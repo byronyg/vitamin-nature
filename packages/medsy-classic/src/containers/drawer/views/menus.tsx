@@ -17,18 +17,18 @@ import {
 const menus = [
   {
     id: 1,
-    pathname: 'https://medsy-modern.vercel.app/',
-    title: 'Medsy Modern',
+    pathname: '#',
+    title: 'Home',
   },
   {
     id: 2,
-    pathname: 'https://medsy-minimal.vercel.app/',
-    title: 'Medsy Minimal',
+    pathname: 'Contact Us',
+    title: 'About',
   },
   {
     id: 3,
     pathname: '/',
-    title: 'Medsy Classic',
+    title: 'Blog',
   },
   {
     id: 4,
@@ -104,7 +104,7 @@ export default function DrawerMenu() {
         <div className="w-full h-90px bg-gray-100 flex justify-start items-center relative px-30px flex-shrink-0">
           <Link href="/">
             <a className="flex" onClick={hideMenu}>
-              <span className="sr-only">Medsy</span>
+              <span className="sr-only">Vitamin&amp;Nature</span>
               <Logo width="100px" id="medsy-menu-logo" />
             </a>
           </Link>

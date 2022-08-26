@@ -17,13 +17,15 @@ export default function HeroBlock() {
       searchRef.current.focus();
     }
   }, [isSticky, isLargeScreen]);
-  const setSticky = useCallback(() => dispatch({ type: 'SET_STICKY' }), [
-    dispatch,
-  ]);
+  const setSticky = useCallback(
+    () => dispatch({ type: 'SET_STICKY' }),
+    [dispatch]
+  );
 
-  const removeSticky = useCallback(() => dispatch({ type: 'REMOVE_STICKY' }), [
-    dispatch,
-  ]);
+  const removeSticky = useCallback(
+    () => dispatch({ type: 'REMOVE_STICKY' }),
+    [dispatch]
+  );
 
   const onWaypointPositionChange = ({ currentPosition }) => {
     if (!currentPosition || currentPosition === 'above') {
@@ -40,7 +42,7 @@ export default function HeroBlock() {
       />
       <div className="flex flex-col relative z-10 justify-center items-center w-full max-w-720px">
         <h1 className="font-normal font-30px text-gray-900 text-center mb-4">
-          <span className="font-bold">Medsy</span> Provides You
+          <span className="font-bold">Vitamin &amp; Nature</span> Provides You
           <span className="font-bold block">Safe Delivery</span>
         </h1>
 
