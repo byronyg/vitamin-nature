@@ -151,6 +151,7 @@ export default function DrawerMenu() {
               className={`social ${item.className}`}
               target="_blank"
               key={index}
+              rel="noreferrer"
             >
               <span className="sr-only">{item.title}</span>
               {item.icon}

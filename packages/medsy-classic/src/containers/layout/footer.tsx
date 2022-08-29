@@ -72,6 +72,7 @@ const Footer = () => (
           className={`social ${item.className}`}
           key={index}
           target="_blank"
+          rel="noreferrer"
         >
           <span className="sr-only">{item.title}</span>
           {item.icon}
