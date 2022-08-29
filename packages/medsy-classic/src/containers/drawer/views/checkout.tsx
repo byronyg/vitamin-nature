@@ -104,7 +104,7 @@ export default function Checkout() {
               Contact Information
             </span>
             <NumberFormat
-              format="+1 (###) ###-####"
+              format="+254 (###) ###-###"
               mask="_"
               placeholder="Mobile Phone Number"
               className={`${InputBase} ${TextBoxCommonBase} ${TextBoxEnable}`}
