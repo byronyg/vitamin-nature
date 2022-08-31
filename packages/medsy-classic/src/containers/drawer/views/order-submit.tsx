@@ -39,7 +39,7 @@ export default function OrderSubmit() {
             Thank you for your order.
           </p>
           <p className="text-center text-13px text-gray-700">
-            We've received your order and will contact you very soon.
+            We have received your order and will contact you very soon.
           </p>
         </div>
       </div>

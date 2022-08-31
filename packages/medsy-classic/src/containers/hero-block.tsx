@@ -42,12 +42,14 @@ export default function HeroBlock() {
       />
       <div className="flex flex-col relative z-10 justify-center items-center w-full max-w-720px">
         <h1 className="font-normal font-30px text-gray-900 text-center mb-4">
-          <span className="font-bold">Vitamin &amp; Nature</span> Provides You
-          <span className="font-bold block">Safe Delivery</span>
+          <span className="font-bold">Vitamin &amp; Nature.</span>
+
+          <span className="block">Simple, Healthy, Happy</span>
         </h1>
 
         <p className="font-17px text-gray-700 lg:mb-60px text-center leading-loose">
-          Get medicines at your home within 30 minutes.
+          Dedicated to providing the widest selection of health and selfcare
+          product.
         </p>
         {!isSticky && <Search ref={searchRef} className="hidden lg:flex" />}
         <Waypoint

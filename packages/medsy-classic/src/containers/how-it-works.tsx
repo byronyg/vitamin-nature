@@ -5,26 +5,26 @@ const data = [
   {
     id: 1,
     background: '#feeec8',
-    title: 'Your Order',
+    title: 'Search for Product',
     description: 'Add products to your cart, enter your details and confirm.',
   },
   {
     id: 2,
     background: '#ceeffe',
-    title: 'Picking your order',
+    title: 'Add to shopping cart',
     description:
       'Your order is being picked and now will be forwarded for packaging.',
   },
   {
     id: 3,
     background: '#d4f8c4',
-    title: 'Packing Your Order',
+    title: 'Go to Checkout',
     description: 'We are packing your order and will be out for delivery soon.',
   },
   {
     id: 4,
     background: '#d8dafe',
-    title: 'Deliver',
+    title: 'Enter details and wait',
     description:
       'Your order has been prepared and out for delivery. It will be delivered soon.',
   },
