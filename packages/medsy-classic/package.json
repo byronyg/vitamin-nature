@@ -9,7 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "17.0.2",
+    "autoprefixer": "^10.3.4",
+    "babel-plugin-inline-react-svg": "^2.0.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
     "google-spreadsheet": "^3.1.15",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^9.0.0",
     "localforage": "^1.10.0",
     "mailgen": "^2.0.15",
     "mailgun-js": "^0.22.0",
@@ -20,6 +29,7 @@
     "nodemailer": "^6.6.3",
     "overlayscrollbars": "^1.13.1",
     "overlayscrollbars-react": "^0.2.3",
+    "postcss": "^8.3.6",
     "rc-collapse": "^3.1.1",
     "react": "^17.0.2",
     "react-currency-format": "^1.0.0",
@@ -31,19 +41,10 @@
     "react-stickynode": "^4.0.0",
     "react-waypoint": "^10.1.0",
     "swr": "^1.0.0",
-    "typeface-open-sans": "^1.1.13"
+    "tailwindcss": "^2.2.14",
+    "typeface-open-sans": "^1.1.13",
+    "typescript": "^4.4.2"
   },
   "devDependencies": {
-    "@types/react": "^18.0.18",
-    "autoprefixer": "^10.3.4",
-    "babel-plugin-inline-react-svg": "^2.0.1",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
-    "imagemin-mozjpeg": "^9.0.0",
-    "imagemin-optipng": "^8.0.0",
-    "imagemin-svgo": "^9.0.0",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.14",
-    "typescript": "^4.4.2"
   }
 }

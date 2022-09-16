@@ -23,12 +23,6 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/react": "^18.0.20",
-    "cross-env": "^7.0.3",
-    "husky": "^7.0.2",
-    "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2",
-    "rimraf": "^3.0.2"
   },
   "lint-staged": {
     "*.{js,ts,tsx,jsx,md,css}": [
@@ -36,10 +30,16 @@
     ]
   },
   "dependencies": {
-    "rc-collapse": "^3.3.1"
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "17.0.2",
+    "rc-collapse": "^3.3.1",
+    "cross-env": "^7.0.3",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2"
   },
   "resolutions": {
-    "@types/react": "17.0.2",
-    "@types/react-dom": "17.0.2"
+    "@types/react": "17.0.2"
   }
 }
