@@ -23,7 +23,7 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/react": "^18.0.17",
+    "@types/react": "^18.0.20",
     "cross-env": "^7.0.3",
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
