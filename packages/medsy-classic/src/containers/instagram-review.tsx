@@ -90,26 +90,26 @@ export default function InstagramReview() {
 
   return (
     <div className="my-35px xxl:my-60px px-5 lg:px-40px">
-      <div className="relative">
+      {/* <div className="relative">
         {!isLoading && (
-          <Carousel
-            responsive={responsive}
-            ssr={true}
-            slidesToSlide={1}
-            infinite={true}
-            arrows={false}
-            renderButtonGroupOutside={true}
-            customButtonGroup={<ButtonGroup />}
-            className="instagram-review-carousel mt-30px p-1 pt-0 -mx-4"
-          >
-            {posts?.map((post) => (
-              <div className="p-2 pr-4 md:pr-2" key={post.id}>
-                <InstagramCard post={post} />
-              </div>
-            ))}
-          </Carousel>
+          // <Carousel
+          //   responsive={responsive}
+          //   ssr={true}
+          //   slidesToSlide={1}
+          //   infinite={true}
+          //   arrows={false}
+          //   renderButtonGroupOutside={true}
+          //   customButtonGroup={<ButtonGroup />}
+          //   className="instagram-review-carousel mt-30px p-1 pt-0 -mx-4"
+          // >
+          //   {posts?.map((post) => (
+          //     <div className="p-2 pr-4 md:pr-2" key={post.id}>
+          //       <InstagramCard post={post} />
+          //     </div>
+          //   ))}
+          // </Carousel>
         )}
-      </div>
+      </div> */}
     </div>
   );
 }
