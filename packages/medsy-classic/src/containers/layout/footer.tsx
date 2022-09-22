@@ -1,8 +1,6 @@
 import {
   Facebook,
   Twitter,
-  Youtube,
-  Github,
   Instagram,
   Linkedin,
 } from 'assets/icons/social-icons';
@@ -10,45 +8,31 @@ import {
 const social = [
   {
     id: 0,
-    link: '/',
+    link: 'https://web.facebook.com/vitaminandnatureke',
     icon: <Facebook />,
     className: 'facebook',
     title: 'facebook',
   },
   {
     id: 1,
-    link: '/',
+    link: 'https://twitter.com/vitamin_nature_',
     icon: <Twitter />,
     className: 'twitter',
     title: 'twitter',
   },
   {
     id: 2,
-    link: '/',
-    icon: <Youtube />,
-    className: 'youtube',
-    title: 'youtube',
-  },
-  {
-    id: 3,
-    link: '/',
-    icon: <Github />,
-    className: 'github',
-    title: 'github',
-  },
-  {
-    id: 4,
-    link: '/',
+    link: 'https://www.instagram.com/vitaminandnature/',
     icon: <Instagram />,
     className: 'instagram',
     title: 'instagram',
   },
   {
-    id: 5,
-    link: '/',
+    id: 3,
+    link: 'https://www.tiktok.com/@vitaminandnature',
     icon: <Linkedin />,
-    className: 'linkedin',
-    title: 'linkedin',
+    className: 'tiktok',
+    title: 'TikTok',
   },
 ];
 

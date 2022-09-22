@@ -17,12 +17,12 @@ import {
 const menus = [
   {
     id: 1,
-    pathname: '#',
+    pathname: '/',
     title: 'Home',
   },
   {
     id: 2,
-    pathname: 'Contact Us',
+    pathname: '/about',
     title: 'About',
   },
   {
@@ -45,14 +45,14 @@ const menus = [
 const social = [
   {
     id: 0,
-    link: '/',
+    link: 'https://web.facebook.com/vitaminandnatureke',
     icon: <Facebook />,
     className: 'facebook',
     title: 'facebook',
   },
   {
     id: 1,
-    link: '/',
+    link: 'https://twitter.com/vitamin_nature_',
     icon: <Twitter />,
     className: 'twitter',
     title: 'twitter',
@@ -73,17 +73,17 @@ const social = [
   },
   {
     id: 4,
-    link: '/',
+    link: 'https://www.instagram.com/vitaminandnature/',
     icon: <Instagram />,
     className: 'instagram',
     title: 'instagram',
   },
   {
     id: 5,
-    link: '/',
+    link: 'https://www.tiktok.com/@vitaminandnature',
     icon: <Linkedin />,
     className: 'linkedin',
-    title: 'linkedin',
+    title: 'TikTok',
   },
 ];
 
